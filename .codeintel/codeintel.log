@@ -1,0 +1,1641 @@
+Starting logging SublimeCodeIntel v2.2.0 rev GIT-unknown (1651517339) on Wed May  4 12:16:50 2022
+=================================================================================================
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took ~3s
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 26ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'sho' at script.js#11  <Trigger 'javascript-complete-names' at 250>
+start scope is (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+_completion_names_from_scope:: 'sho', scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'short')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 277ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 24ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'showMessage' at script.js#11  <Trigger 'javascript-calltip-call-signature' at 262>
+start scope is (<Element 'scope' at 0x000001C61B1B7208>, ['showMes'])
+find 'showMessage' starting at (<Element 'scope' at 0x000001C61B1B7208>, ['showMes'])
+is 'showMessage' accessible on (<Element 'scope' at 0x000001C61B1B7208>, ['showMes'])? no
+is 'showMessage' accessible on (<Element 'scope' at 0x000001C61B1B7208>, [])? no
+is 'showMessage' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'showMessage' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'showMessage' in <JavaScript curdirlib>
+lookup 'showMessage' in <JavaScript cataloglib: jQuery>
+lookup 'showMessage' in <javascript stdlib>
+evaluating 'showMessage' at script.js#11: could not resolve first part of 'showMessage'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 45ms
++ Warning: evaluating 'showMessage' at script.js#11: could not resolve first part of 'showMessage'
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 24ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'String' at script.js#12  <Trigger 'javascript-calltip-call-signature' at 286>
+start scope is (<Element 'scope' at 0x000001C61B1B7278>, ['showMessage'])
+find 'String' starting at (<Element 'scope' at 0x000001C61B1B7278>, ['showMessage'])
+is 'String' accessible on (<Element 'scope' at 0x000001C61B1B7278>, ['showMessage'])? no
+is 'String' accessible on (<Element 'scope' at 0x000001C61B1B7278>, [])? no
+is 'String' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? yes
+_hit_from_first_part: found elem: class 'String' at []
+lookup 'String' in <JavaScript curdirlib>
+lookup 'String' in <JavaScript cataloglib: jQuery>
+lookup 'String' in <javascript stdlib>
+found 1 hits in lib
+    calltips: ['String(...)', 'String(...)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'showMessage' at script.js#14  <Trigger 'javascript-calltip-call-signature' at 302>
+start scope is (<Element 'scope' at 0x000001C61D2C0208>, [])
+find 'showMessage' starting at (<Element 'scope' at 0x000001C61D2C0208>, [])
+is 'showMessage' accessible on (<Element 'scope' at 0x000001C61D2C0208>, [])? yes
+_hit_from_first_part: found elem: function 'showMessage' at []
+lookup 'showMessage' in <JavaScript curdirlib>
+lookup 'showMessage' in <JavaScript cataloglib: jQuery>
+lookup 'showMessage' in <javascript stdlib>
+    calltips: ['showMessage()']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 23ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 6ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 10ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 21ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcS' at script.js#3  <Trigger 'javascript-calltip-call-signature' at 29>
+start scope is (<Element 'scope' at 0x000001C61D2C0588>, ['calcS'])
+find 'calcS' starting at (<Element 'scope' at 0x000001C61D2C0588>, ['calcS'])
+is 'calcS' accessible on (<Element 'scope' at 0x000001C61D2C0588>, ['calcS'])? no
+is 'calcS' accessible on (<Element 'scope' at 0x000001C61D2C0588>, [])? yes
+_hit_from_first_part: found elem: function 'calcS' at []
+lookup 'calcS' in <JavaScript curdirlib>
+lookup 'calcS' in <JavaScript cataloglib: jQuery>
+lookup 'calcS' in <javascript stdlib>
+    calltips: ['calcS()']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 19ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'One' at script.js#3  <Trigger 'javascript-complete-names' at 29>
+start scope is (<Element 'scope' at 0x000001C61D2C0438>, ['calcS'])
+_completion_names_from_scope:: 'One', scoperef: (<Element 'scope' at 0x000001C61D2C0438>, ['calcS'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2C0438>, ['calcS'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2C0438>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('argument', 'One')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 18ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcS' at script.js#3  <Trigger 'javascript-calltip-call-signature' at 29>
+start scope is (<Element 'scope' at 0x000001C61A9A8518>, ['calcS'])
+find 'calcS' starting at (<Element 'scope' at 0x000001C61A9A8518>, ['calcS'])
+is 'calcS' accessible on (<Element 'scope' at 0x000001C61A9A8518>, ['calcS'])? no
+is 'calcS' accessible on (<Element 'scope' at 0x000001C61A9A8518>, [])? yes
+_hit_from_first_part: found elem: function 'calcS' at []
+lookup 'calcS' in <JavaScript curdirlib>
+lookup 'calcS' in <JavaScript cataloglib: jQuery>
+lookup 'calcS' in <javascript stdlib>
+    calltips: ['calcS(One)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 26ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'Two' at script.js#3  <Trigger 'javascript-complete-names' at 34>
+start scope is (<Element 'scope' at 0x000001C61D2AFF98>, ['calcS'])
+_completion_names_from_scope:: 'Two', scoperef: (<Element 'scope' at 0x000001C61D2AFF98>, ['calcS'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF98>, ['calcS'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF98>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 32ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 25ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 22ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'cal' at script.js#14  <Trigger 'javascript-complete-names' at 179>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, ['c'])
+_completion_names_from_scope:: 'cal', scoperef: (<Element 'scope' at 0x000001C61A9A8438>, ['c'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, ['c'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('function', 'calcS')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcN' at script.js#14  <Trigger 'javascript-calltip-call-signature' at 185>
+start scope is (<Element 'scope' at 0x000001C61D2AFF98>, ['c'])
+find 'calcN' starting at (<Element 'scope' at 0x000001C61D2AFF98>, ['c'])
+is 'calcN' accessible on (<Element 'scope' at 0x000001C61D2AFF98>, ['c'])? no
+is 'calcN' accessible on (<Element 'scope' at 0x000001C61D2AFF98>, [])? no
+is 'calcN' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'calcN' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'calcN' in <JavaScript curdirlib>
+lookup 'calcN' in <JavaScript cataloglib: jQuery>
+lookup 'calcN' in <javascript stdlib>
+evaluating 'calcN' at script.js#14: could not resolve first part of 'calcN'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
++ Warning: evaluating 'calcN' at script.js#14: could not resolve first part of 'calcN'
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 19ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console' at script.js#15  <Trigger 'javascript-complete-object-members' at 198>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, ['calcN'])
+find 'console' starting at (<Element 'scope' at 0x000001C61A9A8438>, ['calcN'])
+is 'console' accessible on (<Element 'scope' at 0x000001C61A9A8438>, ['calcN'])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61A9A8438>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console' at script.js#15: could not resolve first part of 'console'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
++ Warning: evaluating 'console' at script.js#15: could not resolve first part of 'console'
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console.log' at script.js#15  <Trigger 'javascript-calltip-call-signature' at 202>
+start scope is (<Element 'scope' at 0x000001C61D3AB438>, ['calcN'])
+find 'console' starting at (<Element 'scope' at 0x000001C61D3AB438>, ['calcN'])
+is 'console' accessible on (<Element 'scope' at 0x000001C61D3AB438>, ['calcN'])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61D3AB438>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console.log' in <JavaScript curdirlib>
+lookup 'console.log' in <JavaScript cataloglib: jQuery>
+lookup 'console.log' in <javascript stdlib>
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console.log' at script.js#15: could not resolve first part of 'console.log'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
++ Warning: evaluating 'console.log' at script.js#15: could not resolve first part of 'console.log'
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 21ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'xxx' at script.js#14  <Trigger 'javascript-complete-names' at 185>
+start scope is (<Element 'scope' at 0x000001C61D2AFF28>, ['calcN'])
+_completion_names_from_scope:: 'xxx', scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, ['calcN'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, ['calcN'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'cal' at script.js#17  <Trigger 'javascript-complete-names' at 215>
+start scope is (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: 'cal', scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('function', 'calcN'), ('function', 'calcS')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcN' at script.js#17  <Trigger 'javascript-calltip-call-signature' at 221>
+start scope is (<Element 'scope' at 0x000001C61D3AD518>, [])
+find 'calcN' starting at (<Element 'scope' at 0x000001C61D3AD518>, [])
+is 'calcN' accessible on (<Element 'scope' at 0x000001C61D3AD518>, [])? yes
+_hit_from_first_part: found elem: function 'calcN' at []
+lookup 'calcN' in <JavaScript curdirlib>
+lookup 'calcN' in <JavaScript cataloglib: jQuery>
+lookup 'calcN' in <javascript stdlib>
+    calltips: ['calcN(xxx)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 6ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 31ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 23ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'num' at script.js#3  <Trigger 'javascript-complete-names' at 32>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+_completion_names_from_scope:: 'num', scoperef: (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'num' at script.js#3  <Trigger 'javascript-complete-names' at 40>
+start scope is (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+_completion_names_from_scope:: 'num', scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcSumm' at script.js#3  <Trigger 'javascript-calltip-call-signature' at 32>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+find 'calcSumm' starting at (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])? no
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61A9A8438>, [])? yes
+_hit_from_first_part: found elem: function 'calcSumm' at []
+lookup 'calcSumm' in <JavaScript curdirlib>
+lookup 'calcSumm' in <JavaScript cataloglib: jQuery>
+lookup 'calcSumm' in <javascript stdlib>
+    calltips: ['calcSumm(nOne, Two)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Autocomplete called (JavaScript) [calltips]
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 22ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'mor' at script.js#3  <Trigger 'javascript-complete-names' at 48>
+start scope is (<Element 'scope' at 0x000001C61A9A8518>, ['calcSumm'])
+_completion_names_from_scope:: 'mor', scoperef: (<Element 'scope' at 0x000001C61A9A8518>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcSumm' at script.js#3  <Trigger 'javascript-calltip-call-signature' at 32>
+start scope is (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+find 'calcSumm' starting at (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])? no
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61D2AFF28>, [])? yes
+_hit_from_first_part: found elem: function 'calcSumm' at []
+lookup 'calcSumm' in <JavaScript curdirlib>
+lookup 'calcSumm' in <JavaScript cataloglib: jQuery>
+lookup 'calcSumm' in <javascript stdlib>
+    calltips: ['calcSumm(numOne, numTwo)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'les' at script.js#3  <Trigger 'javascript-complete-names' at 54>
+start scope is (<Element 'scope' at 0x000001C61A9A8518>, ['calcSumm'])
+_completion_names_from_scope:: 'les', scoperef: (<Element 'scope' at 0x000001C61A9A8518>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 19ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'let' at script.js#4  <Trigger 'javascript-complete-names' at 63>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+_completion_names_from_scope:: 'let', scoperef: (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'let')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'num' at script.js#4  <Trigger 'javascript-complete-names' at 67>
+start scope is (<Element 'scope' at 0x000001C61B1B7278>, ['calcSumm'])
+_completion_names_from_scope:: 'num', scoperef: (<Element 'scope' at 0x000001C61B1B7278>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7278>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7278>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('argument', 'numOne'), ('argument', 'numTwo')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 23ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 15ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 16ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'mor' at script.js#7  <Trigger 'javascript-complete-names' at 117>
+start scope is (<Element 'scope' at 0x000001C61B1B7BA8>, ['calcSumm'])
+_completion_names_from_scope:: 'mor', scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('argument', 'more')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'more' at script.js#7  <Trigger 'javascript-calltip-call-signature' at 122>
+start scope is (<Element 'scope' at 0x000001C61D3A75F8>, ['calcSumm'])
+find 'more' starting at (<Element 'scope' at 0x000001C61D3A75F8>, ['calcSumm'])
+is 'more' accessible on (<Element 'scope' at 0x000001C61D3A75F8>, ['calcSumm'])? yes
+_hit_from_first_part: found elem: argument 'more' at ['calcSumm']
+evaluating 'more' at script.js#7: No calltips found
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 21ms
++ Warning: evaluating 'more' at script.js#7: No calltips found
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 10ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'els' at script.js#8  <Trigger 'javascript-complete-names' at 128>
+start scope is (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+_completion_names_from_scope:: 'els', scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'else')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'less' at script.js#9  <Trigger 'javascript-calltip-call-signature' at 142>
+start scope is (<Element 'scope' at 0x000001C61D3A74A8>, ['calcSumm'])
+find 'less' starting at (<Element 'scope' at 0x000001C61D3A74A8>, ['calcSumm'])
+is 'less' accessible on (<Element 'scope' at 0x000001C61D3A74A8>, ['calcSumm'])? yes
+_hit_from_first_part: found elem: argument 'less' at ['calcSumm']
+evaluating 'less' at script.js#9: No calltips found
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 20ms
++ Warning: evaluating 'less' at script.js#9: No calltips found
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
++ Info: processing `JavaScript': please wait...
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 17ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'sho' at script.js#13  <Trigger 'javascript-complete-names' at 162>
+start scope is (<Element 'scope' at 0x000001C61B1B7278>, [])
+_completion_names_from_scope:: 'sho', scoperef: (<Element 'scope' at 0x000001C61B1B7278>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7278>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'short')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 10ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'showMoreMessage' at script.js#13  <Trigger 'javascript-calltip-call-signature' at 178>
+start scope is (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+find 'showMoreMessage' starting at (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+is 'showMoreMessage' accessible on (<Element 'scope' at 0x000001C61B1B7BA8>, [])? no
+is 'showMoreMessage' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'showMoreMessage' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'showMoreMessage' in <JavaScript curdirlib>
+lookup 'showMoreMessage' in <JavaScript cataloglib: jQuery>
+lookup 'showMoreMessage' in <javascript stdlib>
+evaluating 'showMoreMessage' at script.js#13: could not resolve first part of 'showMoreMessage'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
++ Warning: evaluating 'showMoreMessage' at script.js#13: could not resolve first part of 'showMoreMessage'
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'con' at script.js#14  <Trigger 'javascript-complete-names' at 184>
+start scope is (<Element 'scope' at 0x000001C61B146128>, [])
+_completion_names_from_scope:: 'con', scoperef: (<Element 'scope' at 0x000001C61B146128>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B146128>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('function', 'confirm'), ('keyword', 'const'), ('variable', 'content'), ('keyword', 'continue'), ('variable', 'controllers')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 13ms
+Autocomplete called (JavaScript) [cplns]
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console' at script.js#14  <Trigger 'javascript-complete-object-members' at 192>
+start scope is (<Element 'scope' at 0x000001C61B1B7278>, [])
+find 'console' starting at (<Element 'scope' at 0x000001C61B1B7278>, [])
+is 'console' accessible on (<Element 'scope' at 0x000001C61B1B7278>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console' at script.js#14: could not resolve first part of 'console'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
++ Warning: evaluating 'console' at script.js#14: could not resolve first part of 'console'
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console.log' at script.js#14  <Trigger 'javascript-calltip-call-signature' at 196>
+start scope is (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+find 'console' starting at (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+is 'console' accessible on (<Element 'scope' at 0x000001C61B1B7BA8>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console.log' in <JavaScript curdirlib>
+lookup 'console.log' in <JavaScript cataloglib: jQuery>
+lookup 'console.log' in <javascript stdlib>
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console.log' at script.js#14: could not resolve first part of 'console.log'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
++ Warning: evaluating 'console.log' at script.js#14: could not resolve first part of 'console.log'
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'sho' at script.js#16  <Trigger 'javascript-complete-names' at 227>
+start scope is (<Element 'scope' at 0x000001C61D2AFF28>, [])
+_completion_names_from_scope:: 'sho', scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF28>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'short')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
++ Info: processing `JavaScript': please wait...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'showLessMessage' at script.js#16  <Trigger 'javascript-calltip-call-signature' at 243>
+start scope is (<Element 'scope' at 0x000001C61B1B7278>, [])
+find 'showLessMessage' starting at (<Element 'scope' at 0x000001C61B1B7278>, [])
+is 'showLessMessage' accessible on (<Element 'scope' at 0x000001C61B1B7278>, [])? no
+is 'showLessMessage' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'showLessMessage' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'showLessMessage' in <JavaScript curdirlib>
+lookup 'showLessMessage' in <JavaScript cataloglib: jQuery>
+lookup 'showLessMessage' in <javascript stdlib>
+evaluating 'showLessMessage' at script.js#16: could not resolve first part of 'showLessMessage'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
++ Warning: evaluating 'showLessMessage' at script.js#16: could not resolve first part of 'showLessMessage'
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console' at script.js#17  <Trigger 'javascript-complete-object-members' at 257>
+start scope is (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+find 'console' starting at (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+is 'console' accessible on (<Element 'scope' at 0x000001C61B1B7BA8>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console' at script.js#17: could not resolve first part of 'console'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
++ Warning: evaluating 'console' at script.js#17: could not resolve first part of 'console'
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console.log' at script.js#17  <Trigger 'javascript-calltip-call-signature' at 261>
+start scope is (<Element 'scope' at 0x000001C61D2AFF28>, [])
+find 'console' starting at (<Element 'scope' at 0x000001C61D2AFF28>, [])
+is 'console' accessible on (<Element 'scope' at 0x000001C61D2AFF28>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console.log' in <JavaScript curdirlib>
+lookup 'console.log' in <JavaScript cataloglib: jQuery>
+lookup 'console.log' in <javascript stdlib>
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console.log' at script.js#17: could not resolve first part of 'console.log'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
++ Warning: evaluating 'console.log' at script.js#17: could not resolve first part of 'console.log'
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcSumm' at script.js#20  <Trigger 'javascript-calltip-call-signature' at 292>
+start scope is (<Element 'scope' at 0x000001C61B1B7278>, [])
+find 'calcSumm' starting at (<Element 'scope' at 0x000001C61B1B7278>, [])
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61B1B7278>, [])? yes
+_hit_from_first_part: found elem: function 'calcSumm' at []
+lookup 'calcSumm' in <JavaScript curdirlib>
+lookup 'calcSumm' in <JavaScript cataloglib: jQuery>
+lookup 'calcSumm' in <javascript stdlib>
+    calltips: ['calcSumm(numOne, numTwo, more, less)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcSumm' at script.js#20  <Trigger 'javascript-calltip-call-signature' at 292>
+start scope is (<Element 'scope' at 0x000001C61D3BD5F8>, [])
+find 'calcSumm' starting at (<Element 'scope' at 0x000001C61D3BD5F8>, [])
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61D3BD5F8>, [])? yes
+_hit_from_first_part: found elem: function 'calcSumm' at []
+lookup 'calcSumm' in <JavaScript curdirlib>
+lookup 'calcSumm' in <JavaScript cataloglib: jQuery>
+lookup 'calcSumm' in <javascript stdlib>
+    calltips: ['calcSumm(numOne, numTwo, more, less)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 10ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 18ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'ret' at script.js#6  <Trigger 'javascript-complete-names' at 84>
+start scope is (<Element 'scope' at 0x000001C61B1B7BA8>, ['calcSumm'])
+_completion_names_from_scope:: 'ret', scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, ['calcSumm'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B1B7BA8>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'return')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 17ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 17ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'let' at script.js#9  <Trigger 'javascript-complete-names' at 105>
+start scope is (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: 'let', scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'let')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'fun' at script.js#9  <Trigger 'javascript-complete-names' at 109>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, [])
+_completion_names_from_scope:: 'fun', scoperef: (<Element 'scope' at 0x000001C61A9A8438>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8438>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'function')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
++ Info: processing `JavaScript': please wait...
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 16ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'calcSumm' at script.js#9  <Trigger 'javascript-calltip-call-signature' at 131>
+start scope is (<Element 'scope' at 0x000001C61D3B73C8>, [])
+find 'calcSumm' starting at (<Element 'scope' at 0x000001C61D3B73C8>, [])
+is 'calcSumm' accessible on (<Element 'scope' at 0x000001C61D3B73C8>, [])? yes
+_hit_from_first_part: found elem: function 'calcSumm' at []
+lookup 'calcSumm' in <JavaScript curdirlib>
+lookup 'calcSumm' in <JavaScript cataloglib: jQuery>
+lookup 'calcSumm' in <javascript stdlib>
+    calltips: ['calcSumm(numOne, numTwo)']
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 16ms
+Autocomplete called (JavaScript) [calltips]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 14ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 10ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 30ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 15ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'ZXC' at script.js#11  <Trigger 'javascript-complete-names' at 153>
+start scope is (<Element 'scope' at 0x000001C61A827978>, [])
+_completion_names_from_scope:: 'ZXC', scoperef: (<Element 'scope' at 0x000001C61A827978>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A827978>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 7ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
++ Info: processing `JavaScript': please wait...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 11ms
+Doing CodeIntel for 'JavaScript' (hold on)...
++ Info: processing `JavaScript': please wait...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'zxc' at script.js#11  <Trigger 'javascript-complete-names' at 153>
+start scope is (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: 'zxc', scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A9A8518>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: []
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 10ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
++ Info: processing `JavaScript': please wait...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'console.log' at script.js#11  <Trigger 'javascript-calltip-call-signature' at 152>
+start scope is (<Element 'scope' at 0x000001C61A9A8438>, [])
+find 'console' starting at (<Element 'scope' at 0x000001C61A9A8438>, [])
+is 'console' accessible on (<Element 'scope' at 0x000001C61A9A8438>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'console' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'console.log' in <JavaScript curdirlib>
+lookup 'console.log' in <JavaScript cataloglib: jQuery>
+lookup 'console.log' in <javascript stdlib>
+lookup 'console' in <JavaScript curdirlib>
+lookup 'console' in <JavaScript cataloglib: jQuery>
+lookup 'console' in <javascript stdlib>
+evaluating 'console.log' at script.js#11: could not resolve first part of 'console.log'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
++ Warning: evaluating 'console.log' at script.js#11: could not resolve first part of 'console.log'
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 4ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 6ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 13ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 3ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 8ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 9ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 6ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'fun' at script.js#3  <Trigger 'javascript-complete-names' at 14>
+start scope is (<Element 'scope' at 0x000001C61D2AFF98>, [])
+_completion_names_from_scope:: 'fun', scoperef: (<Element 'scope' at 0x000001C61D2AFF98>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61D2AFF98>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'function')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 21ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'sho' at script.js#3  <Trigger 'javascript-complete-names' at 23>
+start scope is (<Element 'scope' at 0x000001C61A827978>, ['s'])
+_completion_names_from_scope:: 'sho', scoperef: (<Element 'scope' at 0x000001C61A827978>, ['s'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A827978>, ['s'])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61A827978>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, [])
+_completion_names_from_scope:: checking scoperef: (<Element 'scope' at 0x000001C61B451898>, ['Window'])
+_completion_names_from_scope:: include everything from lib: <JavaScript curdirlib>
+_completion_names_from_scope:: include everything from lib: <JavaScript cataloglib: jQuery>
+_completion_names_from_scope:: include everything from lib: <javascript stdlib>
+    cplns: [('keyword', 'short')]
+done eval: success
+Done 'JavaScript' CodeIntel! Full CodeIntel took 12ms
+Autocomplete called (JavaScript) [cplns]
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 1ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 2ms
+Doing CodeIntel for 'JavaScript' (hold on)...
+eval 'showName' at script.js#3  <Trigger 'javascript-calltip-call-signature' at 32>
+start scope is (<Element 'scope' at 0x000001C61B146128>, ['s'])
+find 'showName' starting at (<Element 'scope' at 0x000001C61B146128>, ['s'])
+is 'showName' accessible on (<Element 'scope' at 0x000001C61B146128>, ['s'])? no
+is 'showName' accessible on (<Element 'scope' at 0x000001C61B146128>, [])? no
+is 'showName' accessible on (<Element 'scope' at 0x000001C61B451898>, [])? no
+is 'showName' accessible on (<Element 'scope' at 0x000001C61B451898>, ['Window'])? no
+lookup 'showName' in <JavaScript curdirlib>
+lookup 'showName' in <JavaScript cataloglib: jQuery>
+lookup 'showName' in <javascript stdlib>
+evaluating 'showName' at script.js#3: could not resolve first part of 'showName'
+done eval: eval error
+Done 'JavaScript' CodeIntel! Full CodeIntel took 5ms
++ Warning: evaluating 'showName' at script.js#3: could not resolve first part of 'showName'
+Updating indexes for 'JavaScript'... The first time this can take a while.
+Doing CodeIntel for 'JavaScript' (hold on)...
+Done 'JavaScript' CodeIntel! Full CodeIntel took 16ms
