@@ -156,35 +156,24 @@ let users = [
 // }
 // console.log(test())
 
-function test2 (){
-	let numberClear  = [];
-	let sum  = 0;
-	//let a = [];
-	for (let i = 0 ; i < users.length;i++){
-		numberClear.push(users[i].balance.slice(1).split(""));
-		function removeElement(numberClear,item){
-			if (item === String || Number){
-				numberClear.splice(item,1);
-				
-			}
-			return item;
-		}
-		removeElement(numberClear[i],1)
-		console.log(numberClear)
-}
-numberClear = +numberClear.join().replaceAll(',','');
-
-//a = numberClear.join().replaceAll(',','')
-		//console.log(a);
-//for (let j = 0; j < a.length;j++){	
-// 	for (let j of numberClear){
-// 				//numberClear[j] = +numberClear.join().replaceAll(',','');
-
-// sum += numberClear[j];
+// function test2 (){
+// 	let numberClear  = [];
+// 	let b ;
+// 	for (let i = 0 ; i < users.length;i++){
+// 	numberClear.push(users[i].balance.replaceAll('$','').replaceAll(',',''));
+// 	console.log(numberClear)
+// 	let a = [];
+// for (let j = 0;j < numberClear.length;j++){
+// 	a.push(parseInt(numberClear[j]))
 // }
-return  sum;
-}
-console.log(test2())
+// console.log(a);
+// let sum   = 0 ;
+// b = a.reduce((previousValue, currentValue) => previousValue + currentValue,
+// sum);
+// }
+// return  b;
+// }
+// console.log(test2())
 // /--------------DZ12-------------------------------------/
 //Реализуйте функцию removeElement(array, item), чтобы удалить элемент item из массива array.
 // const arr = [2,3,4,'hi','world',56,33];
