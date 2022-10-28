@@ -1,62 +1,60 @@
-class Hamburger{
-	tugric = 0;
-	calories = 0;
-	constructor(){
+class Hamburger {
+	constructor() {
 
 	}
-	sizeSmall(){
+	static tugric = 0;
+	static calories = 0;
+
+	static sizeSmall() {
 		this.tugric = 50;
 		this.calories = 20;
-		
+
 	}
-	sizeBig(){
+	static sizeBig() {
 		this.tugric = 100;
 		this.calories = 40;
 	}
-	addCheese(){
+	static addCheese() {
 		this.tugric = this.tugric + 10;
 		this.calories = this.calories + 20;
 	}
-	addSalat(){
+	static addSalat() {
 		this.tugric = this.tugric + 20;
 		this.calories = this.calories + 5;
 	}
-	addPotato(){
+	static addPotato() {
 		this.tugric = this.tugric + 15;
 		this.calories = this.calories + 10;
 	}
-	addFlavoring(){
+	static addFlavoring() {
 		this.tugric = this.tugric + 15;
 		this.calories = this.calories + 0;
 	}
-	addMayo(){
-		this.tugric  = this.tugric + 20;
+	static addMayo() {
+		this.tugric = this.tugric + 20;
 		this.calories = this.calories + 5;
 	}
-	calculateCalories(){
-		return this.calories  
+	static calculateCalories() {
+		return this.calories
 	}
-	calculatePrice(){
+	static calculatePrice() {
 		return this.tugric;
 	}
 }
 
 const hamburger = new Hamburger()
-console.log(hamburger);
 //маленький гамбургер с начинкой из сыра
-hamburger.sizeSmall();
-hamburger.addCheese();
-console.log(hamburger);
+Hamburger.sizeSmall();
+Hamburger.addCheese();
 // добавка из майонеза
-hamburger.addMayo();
-console.log(hamburger);
+Hamburger.addMayo();
 // спросим сколько там калорий
-hamburger.calculateCalories();
-console.log('Calories: ' + hamburger.calculateCalories());
+Hamburger.calculateCalories();
+console.log('Calories: ' + Hamburger.calculateCalories());
 // сколько стоит
-console.log('Price: ' + hamburger.calculatePrice());
+console.log('Price: ' + Hamburger.calculatePrice());
 // я тут передумал и решил добавить еще приправу
-hamburger.addFlavoring();
+Hamburger.addFlavoring();
 console.log(hamburger);
 //А сколько теперь стоит?
-console.log('Price with flavoring: ' + hamburger.calculatePrice());
+console.log('Price with flavoring: ' + Hamburger.calculatePrice());

@@ -9,7 +9,6 @@ class Student{
 age(){
 	return (2022 - this.birthdate)
 }
-
 avgMark(){
 	this.sum = 0;
 	for(let i =0  ; i<this.marks.length;i++){
@@ -54,9 +53,9 @@ return 'Молодец!';
 }
 
 
-const student = new Student('ivanov','ivan',2004,[95,80,93,75,70])
+const student = new Student('ivanov','ivan',"2004",[95,80,93,75,70])
 console.log(student)
-console.log(' возраст студента:' + student.age())
+console.log(' возраст студента:' + student.age());
 console.log('средний бал:' + student.avgMark())
 student.present();
 student.absent();
