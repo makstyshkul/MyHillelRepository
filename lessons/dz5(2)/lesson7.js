@@ -4,23 +4,20 @@ class Person{
 		this.name = name;
 		this.age = age;
 	}
-}
-let a = prompt('please input a surname','vasiliev');
-let  b =  prompt('please input a name','ivan')
-let c = +prompt('please input an age','23')
-const person = new Person(a,b,c)
-function surname (){
-		if(a === null || ''){
+	surnamePer(){
+		if(this.surname === null || ''){
 			alert('please input your surname')
 		}
 }
-surname();
-function name (){
-	if(b === null || ''){
+namePer(){
+	if(this.name === null || ''){
 		alert('please input your name')
 	}
 }
-name();
+}
+const person = new Person(prompt('please input a surname','vasiliev'), prompt('please input a name','ivan'),+prompt('please input an age','23'))
+person.surnamePer();
+person.namePer();
 console.log(person)
 
 class Car {
@@ -34,14 +31,14 @@ class Car {
 		this.name = person.name;
 		this.age = person.age;
 	}
-	}
-	function age(){
-		if(c < 18){
+	age(){
+		if(person.age < 18){
 		alert('you dont have a driver license')
 			}
 		}
-age()
+	}
 const car = new Car(prompt('please input a marka','audi'),prompt('please input a model','r8'),prompt('please input a type','passenger'));
+car.age()
 console.log(car)
 car.owner();
 console.log(car)
