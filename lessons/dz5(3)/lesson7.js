@@ -1,60 +1,76 @@
 class Hamburger {
-	constructor() {
-
-	}
 	static tugric = 0;
 	static calories = 0;
+	constructor(sizes,stuffing) {
+		this.sizes = sizes;
+		this.stuffing = stuffing;
+	}
+	static sizeSmall = {
+		tugric  : 50,
+		calories : 20
+	}
 
-	static sizeSmall() {
-		this.tugric = 50;
-		this.calories = 20;
+	static sizeBig =  {
+		tugric : 100,
+		calories : 40
+	}
 
+	static addCheese = {
+		tugric :  10,
+		calories :  20
 	}
-	static sizeBig() {
-		this.tugric = 100;
-		this.calories = 40;
+
+	static addSalat =  {
+		tugric :  20,
+		calories :  5
 	}
-	static addCheese() {
-		this.tugric = this.tugric + 10;
-		this.calories = this.calories + 20;
+
+	static addPotato = {
+		tugric :  15,
+		calories :  10
 	}
-	static addSalat() {
-		this.tugric = this.tugric + 20;
-		this.calories = this.calories + 5;
+
+static addMayo = {
+		tugric :  20,
+		calories : 5
 	}
-	static addPotato() {
-		this.tugric = this.tugric + 15;
-		this.calories = this.calories + 10;
+
+	static addFlavoring = {
+		tugric :  15,
+		calories :  0
 	}
-	static addFlavoring() {
-		this.tugric = this.tugric + 15;
-		this.calories = this.calories + 0;
+
+	
+
+	addTopping(topping){
+		this.topping = topping;
 	}
-	static addMayo() {
-		this.tugric = this.tugric + 20;
-		this.calories = this.calories + 5;
+
+	calculateCalories() {
+		let countCalories =  this.sizes.calories + this.stuffing.calories + this.topping.calories;
+	return	countCalories;
 	}
-	static calculateCalories() {
-		return this.calories
-	}
-	static calculatePrice() {
-		return this.tugric;
+
+	calculatePrice() {
+		let countTugric =  this.sizes.tugric + this.stuffing.tugric + this.topping.tugric;
+		return countTugric;
 	}
 }
 
-const hamburger = new Hamburger()
-//маленький гамбургер с начинкой из сыра
-Hamburger.sizeSmall();
-Hamburger.addCheese();
+// маленький гамбургер с начинкой из сыра
+const hamburger = new Hamburger(Hamburger.sizeSmall,Hamburger.addCheese);
+
 // добавка из майонеза
-Hamburger.addMayo();
+hamburger.addTopping(Hamburger.addMayo)
+
 // спросим сколько там калорий
-Hamburger.calculateCalories();
-console.log('Calories: ' + Hamburger.calculateCalories());
+console.log('Calories: ' + hamburger.calculateCalories());
+
 // сколько стоит
-console.log('Price: ' + Hamburger.calculatePrice());
+console.log('Price: ' + hamburger.calculatePrice());
+
 // я тут передумал и решил добавить еще приправу
-Hamburger.addFlavoring();
-console.log(hamburger);
-//А сколько теперь стоит?
-console.log('Price with flavoring: ' + Hamburger.calculatePrice());
+hamburger.addTopping(Hamburger.addFlavoring)
+
+// А сколько теперь стоит?
+console.log('Price with flavoring: ' + hamburger.calculatePrice());
